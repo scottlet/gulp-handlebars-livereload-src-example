@@ -1,5 +1,5 @@
 'use strict';
-const sharedFile = require('../shared/dummy');
+require('../shared/dummy');
 module.exports = function index(req, res, next) {
     let params = {
         title: 'The Test Page',
