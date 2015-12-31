@@ -1,6 +1,7 @@
 'use strict';
-require('../shared/dummy');
+var dummy = require('../shared/dummy');
 module.exports = function index(req, res, next) {
+    dummy.printLn();
     let params = {
         title: 'The Test Page',
         pageTitle: 'Welcome!',
