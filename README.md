@@ -1,6 +1,6 @@
-###Src files for gulp-express-livereload
+###Src files for gulp-handlebars-livereload
 
-Check out https://github.com/scottbert/gulp-express-livereload
+Check out https://github.com/scottbert/gulp-handlebars-livereload
 
 Place this repo inside that checkout as ```src```
 
@@ -19,9 +19,8 @@ You should have a directory structure that looks something like:
 .eslintignore
 .eslintrc
 .gitignore
-.scss-lint.yml
+.sass-lint.yml
 README.md
-app.js
 gulpfile.js
 package.json
 ```
