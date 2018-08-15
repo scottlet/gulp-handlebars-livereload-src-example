@@ -1,13 +1,12 @@
-{{#index}}
-{{> head}}
-    <img src="images/handlebars_logo.png" />
-    <h1>{{title}}</h1>
-    <p>Welcome to {{title}}</p>
+{{#extend "main"}}
+    {{#content "main"}}
+        {{>logo}}
+        <p>{{{__ 'welcome.to'}}} {{{index.title}}}</p>
 
-    Welcome!
-    This is a test page to demonstrate gulp and livereload.<br />
-    It shows a gulp/livereload setup using handlebars templates and handlebars.<br /><br />
-    {{capitalise 'Enjoy!'}}<br /><br />
-    <img src="images/gulp-white-text.svg" />
-{{> foot}}
-{{/index}}
+        {{{__ 'welcome.title'}}}
+        {{{__ 'i1'}}}<br />
+        {{{__ 'i2'}}}<br /><br />
+        {{{capitalise (__ 'enjoy')}}}<br /><br />
+        <img src="{{path 'images/gulp-white-text.svg'}}" />
+    {{/content}}
+{{/extend}}
