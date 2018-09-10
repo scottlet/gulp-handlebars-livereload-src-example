@@ -1,0 +1,7 @@
+{
+    "welcome.title": "Welcome!",
+    "welcome.to": "Welcome to",
+    "i1": "This is a test page to demonstrate gulp and livereload.",
+    "i2": "It shows a gulp/livereload setup using handlebars templates and handlebars.",
+    "enjoy": "Enjoy!"
+}

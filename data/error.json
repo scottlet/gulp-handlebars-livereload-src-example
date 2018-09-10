@@ -1,0 +1,7 @@
+{
+    "message": "Oops",
+    "error": {
+        "status": "404",
+        "stack": "mistakes"
+    }
+}
