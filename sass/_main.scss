@@ -1,6 +1,6 @@
 body {
     background: $bg;
-    font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font: 14px 'Raleway', Helvetica, Arial, sans-serif;
     padding: 50px;
 }
 
@@ -15,4 +15,10 @@ h1 {
 
 img {
     max-width: 200px;
+}
+
+nav {
+    position: fixed;
+    right: 30px;
+    top: 30px;
 }

@@ -1,0 +1,8 @@
+{
+    "welcome.title": "Wilkommen!",
+    "welcome.to": "Willkommen auf",
+    "welcome.test": "der Testseite",
+    "i1": "Dies ist eine Testseite, um Gulp und Livereload zu demonstrieren.",
+    "i2": "Es zeigt einen Gulp / Livereload Setup mit Handlebars vorlagen und Handlebars.",
+    "enjoy": "Genießen!"
+}
