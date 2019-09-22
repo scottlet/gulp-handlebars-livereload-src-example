@@ -9,15 +9,15 @@
   </head>
   <body>
       <nav>
-        {{#eq 'en' (getLocale)}}
+        {{#eq '/de/' (getLocale)}}
+          <a href="/">EN</a>
+          DE
+        {{else}}
           EN
           <a href="/de">DE</a>
-        {{else}}
-          <a href="/">EN</a>
-           DE
         {{/eq}}
       </nav>
-      {{#block "main"}}{{/block}}
+      {{#> content}}{{/content}}
       <script type="text/javascript" src="{{path 'js/app.min.js'}}"></script>
       <script type="text/javascript" src="{{path 'js/app2.min.js'}}"></script>
   </body>

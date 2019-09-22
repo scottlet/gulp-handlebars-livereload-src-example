@@ -1,5 +1,5 @@
-{{#extend "main" data=index}}
-    {{#content "main"}}
+{{#> main data=index}}
+    {{#*inline 'content'}}
         {{>logo}}
         <p>{{{__ 'welcome.to'}}} {{{__ index.title}}}</p>
 
@@ -8,5 +8,5 @@
         {{{__ 'i2'}}}<br /><br />
         {{{capitalise (__ 'enjoy')}}}<br /><br />
         <img src="{{path 'images/gulp-white-text.svg'}}" />
-    {{/content}}
-{{/extend}}
+    {{/inline}}
+{{/main}}

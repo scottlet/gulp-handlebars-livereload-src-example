@@ -1,7 +1,7 @@
-{{#extend "main" data=index}}
-    {{#content "main"}}
+{{#> main data=index}}
+    {{#*inline 'content'}}
         <h1>{{message}}</h1>
         <h2>{{error.status}}</h2>
         <pre>{{error.stack}}</pre>
-    {{/content}}
-{{/extend}}
+    {{/inline}}
+{{/main}}

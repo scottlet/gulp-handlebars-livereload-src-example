@@ -1,2 +1,7 @@
-@import 'bourbon';
-@include font-face('Raleway', '../fonts/raleway-extrabold-webfont');
+@font-face {
+    font-family: 'Raleway';
+    font-display: swap;
+    font-weight: 300;
+    src: url('../fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-extrabold-webfont.woff') format('woff');
+}
