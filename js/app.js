@@ -1,2 +1,2 @@
-/*eslint-disable no-console*/
-console.log('this is a test of app.js');
+import Logger from 'log';
+Logger('this is a test of app.js');
