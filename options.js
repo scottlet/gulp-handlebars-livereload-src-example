@@ -2,7 +2,14 @@
 except for name and version */
 const OPTIONS = {
     NAME: 'Handlebars Source', // change to name of your project
-    VERSION: '0.0.2' // increment with each release
+    VERSION: '0.0.2', // increment with each release
+    BREAKPOINTS: {
+        OLD_MOBILE: 320,
+        MOBILE: 767,
+        SMALL_TABLET: 600,
+        TABLET: 979,
+        SMALL_DESKTOP: 1440
+    }
 };
 
 module.exports = OPTIONS;

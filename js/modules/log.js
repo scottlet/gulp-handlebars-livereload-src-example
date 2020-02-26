@@ -1,7 +1,7 @@
 function Logger() {
     if (typeof console !== 'undefined') {
-        return msg => {
-            console.log(msg);
+        return (...msg) => {
+            console.log(...msg);
         };
     }
 

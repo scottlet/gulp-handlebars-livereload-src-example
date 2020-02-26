@@ -1,2 +1,2 @@
 import Logger from 'log';
-Logger('this is a test of app.js');
+Logger('this is a test of entrypoint app.js');
