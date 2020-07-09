@@ -2,7 +2,7 @@
 except for name and version */
 const OPTIONS = {
     NAME: 'Handlebars Source', // change to name of your project
-    VERSION: '0.0.2', // increment with each release
+    VERSION: '0.0.3', // increment with each release
     BREAKPOINTS: {
         OLD_MOBILE: 320,
         MOBILE: 767,

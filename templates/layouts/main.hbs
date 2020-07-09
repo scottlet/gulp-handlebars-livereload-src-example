@@ -10,11 +10,11 @@
   <body>
       <nav>
         {{#eq '/de/' (getLocale)}}
-          <a href="/">EN</a>
+          <a href="../">EN</a>
           DE
         {{else}}
           EN
-          <a href="/de">DE</a>
+          <a href="de">DE</a>
         {{/eq}}
       </nav>
       {{#> content}}{{/content}}
