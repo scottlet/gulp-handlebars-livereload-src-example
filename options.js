@@ -1,8 +1,9 @@
-/* Use this to override any of the options in CONSTS.js inside the builder repo. Should probably not be necessary
-except for name and version */
+const { name, version } = require('./package.json');
+
 const OPTIONS = {
-    NAME: 'Handlebars Source', // change to name of your project
-    VERSION: '0.0.3', // increment with each release
+    NAME: name,
+    FULL_NAME: 'Gulp Handlebars LiveReload Src Example',
+    VERSION: version,
     BREAKPOINTS: {
         OLD_MOBILE: 320,
         MOBILE: 767,

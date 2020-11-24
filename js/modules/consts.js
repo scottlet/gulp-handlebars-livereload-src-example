@@ -1,3 +1,3 @@
 import CONSTS from '../../options';
 
-export default CONSTS;
+export { CONSTS };
