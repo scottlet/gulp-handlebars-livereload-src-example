@@ -3,6 +3,6 @@
     "welcome.to": "Welcome to",
     "welcome.test": "the test page",
     "i1": "This is a test page to demonstrate gulp and livereload.",
-    "i2": "It shows a gulp/livereload setup using handlebars templates and handlebars.",
+    "i2": "It shows a gulp/livereload static site setup using handlebars templates and i18n.",
     "enjoy": "Enjoy!"
 }

@@ -3,6 +3,6 @@
     "welcome.to": "Willkommen auf",
     "welcome.test": "der Testseite",
     "i1": "Dies ist eine Testseite, um Gulp und Livereload zu demonstrieren.",
-    "i2": "Es zeigt einen Gulp / Livereload Setup mit Handlebars vorlagen und Handlebars.",
+    "i2": "Es zeigt ein statisches Site-Setup für Gulp / Livereload unter Verwendung von Lenkervorlagen und i18n.",
     "enjoy": "Genießen!"
 }
