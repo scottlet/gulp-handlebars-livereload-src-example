@@ -1,6 +1,6 @@
 ###Src files for gulp-handlebars-livereload
 
-Check out https://github.com/scottbert/gulp-handlebars-livereload
+Check out https://github.com/scottlet/gulp-handlebars-livereload
 
 Place this repo inside that checkout as ```src```
 
